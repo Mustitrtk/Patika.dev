@@ -25,7 +25,7 @@ public class NotOrt{
         muzik = input.nextInt();
 
         double ort = (matematik+fizik+kimya+turkce+tarih+muzik)/6.0;
-
+        System.out.println("Not ortalaması :"+ort);
         System.out.println(ort>=60?"Gecti!":"Kaldi!");
     }
 }
