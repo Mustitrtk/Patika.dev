@@ -1,0 +1,37 @@
+package UcakBileti;
+import java.util.Scanner;
+public class UcakBileti{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		int mesafe,yas,yolsecimi;
+		int tutar =0;
+		System.out.print("Yol mesafesini giriniz : ");
+		mesafe = sc.nextInt();
+		
+		tutar += (mesafe*0.10);
+		
+		System.out.print("Yas giriniz : ");
+		yas = sc.nextInt();
+		
+		if(yas<12){
+			tutar = tutar - (tutar*0.50);
+		}
+		else if(yas>65){
+			tutar = tutar -(tutar*0.30)
+		}
+		else tutar = tutar -(tutar*0.10)
+		
+		while(yolsecimi == 1 || yolsecimi == 2)
+		{
+			System.out.print("Yon seciniz: \nntek yon : 1 \ncift yon : 2  \nsecim :");
+			yolsecimi = sc.nextInt();
+			if(yolsecimi == 2){
+				tutar = tutar -(tutar*0.20);
+			}
+			else if(yolsecimi == 1){}
+			else System.out.println("Hatali giris.");
+		}
+		
+		System.out.println("Tutariniz : "+tutar);
+	}
+}
