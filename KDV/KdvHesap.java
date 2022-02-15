@@ -8,7 +8,7 @@ public class KdvHesap{
 		System.out.print("Tutar giriniz :");
 		double tutar = input.nextDouble();
 		
-		kdv = (tutar>=100?tutar*0.08:tutar*0.18);
+		kdv = (tutar>=1000?tutar*0.08:tutar*0.18);
 		
 		System.out.println("tutar : "+tutar);
 		System.out.println("kdv : "+kdv);

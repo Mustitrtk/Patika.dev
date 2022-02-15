@@ -1,4 +1,4 @@
-package burc;
+package Burc;
 import java.util.Scanner;
 public class Burc {
     public static void main(String[] args) {

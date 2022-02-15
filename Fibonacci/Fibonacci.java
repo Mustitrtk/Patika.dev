@@ -1,4 +1,5 @@
 package Fibonacci;
+
 public class Fibonacci {
     public static void main(String[] args) {
         int n=0,n2=1,temp;

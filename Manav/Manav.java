@@ -34,7 +34,6 @@ public class Manav{
 		total += (patlıcan*kg);
 		
 		System.out.println("tutar : "+total);
-		
 		input.close();
 	}
 }

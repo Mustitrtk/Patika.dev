@@ -1,4 +1,4 @@
-package basamaktoplam;
+package BasamakToplam;
 import java.util.Scanner;
 public class BasamakToplam {
     public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class BasamakToplam {
         }
         
         System.out.println("Basamaklar toplamı : "+toplam);
+        sc.close();
     }
     
 }

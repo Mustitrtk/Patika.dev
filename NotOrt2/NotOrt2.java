@@ -28,7 +28,7 @@ public class NotOrt2{
 		double avg = (mat+fiz+kimya+turkce+muzik)/5;
 		
 		System.out.println("Ortalama :"+avg+" , "+(avg>=55?"gectiniz.":"kaldiniz."));
-		
+
 		sc.close();
 	}
 }

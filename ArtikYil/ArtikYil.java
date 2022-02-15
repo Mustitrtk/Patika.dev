@@ -1,8 +1,5 @@
 package ArtikYil;
 import java.util.Scanner;
-
-import javax.sound.sampled.SourceDataLine;
-import javax.xml.validation.Schema;
 public class ArtikYil {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
